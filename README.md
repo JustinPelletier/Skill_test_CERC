@@ -71,7 +71,7 @@ OUTPUTS
 -----------
 
 
-<output>.vcf.gz : Input VCF file with its INFO field modified with additional information required by the tool (GENES_IN, GENES_200KB, GENE_NEAREST)
+<<output>>.vcf.gz : Input VCF file with its INFO field modified with additional information required by the tool (GENES_IN, GENES_200KB, GENE_NEAREST)
 
 
 
@@ -79,27 +79,33 @@ EXAMPLES
 -----------
 
 > python3 CERC_vcf_annotation.py -f <VCF_filename>.vcf.gz -g <GENCODE_filename>.gtf.gz -o <output>
+
 Will modify the header to add INFO field annotation but the INFO field will be untouched.
 Results wil be written in a new VCF file named <output>.vcf.gz
 
 > python3 CERC_vcf_annotation.py -f <VCF_filename>.vcf.gz -g <GENCODE_filename>.gtf.gz -i -o <output>
+
 Will modify the header to add INFO field annotation and add the list of overlapping genes in the INFO field.
 Results wil be written in a new VCF file named <output>.vcf.gz
 
 > python3 CERC_vcf_annotation.py -f <VCF_filename>.vcf.gz -g <GENCODE_filename>.gtf.gz -a -o <output>
+
 Will modify the header to add INFO field annotation and add the list of genes within +/- 200KB in the INFO field.
 Results wil be written in a new VCF file named <output>.vcf.gz
 
 > python3 CERC_vcf_annotation.py -f <VCF_filename>.vcf.gz -g <GENCODE_filename>.gtf.gz -n -o <output>
+
 Will modify the header to add INFO field annotation and add the nearest genes in the INFO field.
 Results wil be written in a new VCF file named <output>.vcf.gz
 
 > python3 CERC_vcf_annotation.py -f <VCF_filename>.vcf.gz -g <GENCODE_filename>.gtf.gz -i -a -n -o <output>
+
 Will modify the header to add INFO field annotation and add the list of overlapping genes, the list of genes within +/- 200KB and the nearest genes in the INFO field.
 Results wil be written in a new VCF file named <output>.vcf.gz
 
 
 > python3 CERC_vcf_annotation.py -f <VCF_filename>.vcf.gz -g <GENCODE_filename>.gtf.gz -i -a -n 
+
 Will modify the header to add INFO field annotation and add the list of overlapping genes, the list of genes within +/- 200KB and the nearest genes in the INFO field.
 Results wil be written in the input VCF file <VCF_filename>.vcf.gz
 
