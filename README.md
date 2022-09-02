@@ -71,7 +71,7 @@ OUTPUTS
 -----------
 
 
-<<output>>.vcf.gz : Input VCF file with its INFO field modified with additional information required by the tool (GENES_IN, GENES_200KB, GENE_NEAREST)
+output.vcf.gz : Input VCF file with its INFO field modified with additional information required by the tool (GENES_IN, GENES_200KB, GENE_NEAREST)
 
 
 
