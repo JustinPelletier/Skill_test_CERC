@@ -1,0 +1,4 @@
+Bio==1.4.0
+cyvcf2==0.30.12+computecanada
+numpy==1.22.2+computecanada
+pandas==1.4.1+computecanada
