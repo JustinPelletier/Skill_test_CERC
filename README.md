@@ -113,5 +113,6 @@ Results wil be written in the input VCF file <VCF_filename>.vcf.gz
 AUTHOR
 -----------
 PELLETIER Justin (https://mhi-omics.org/people/justin-pelletier/)
+
 email: justin.pelletier@umontreal.ca
 
