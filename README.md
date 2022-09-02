@@ -62,7 +62,7 @@ List of possible options;
 
 -n / --genes-nearest : Get the nearest gene 
 
--o / --output : Prefix of the outputs files. If not used, output will be redirect as the input VCF file
+-o / --output : Prefix of the outputs files. If not specified, output will be redirect as the input VCF file
 
 -h / --help  : Show help message and exit
 
@@ -71,7 +71,7 @@ OUTPUTS
 -----------
 
 
-output.vcf.gz : Input VCF file with its INFO field modified with additional information required by the tool (GENES_IN, GENES_200KB, GENE_NEAREST)
+InputFile.vcf.gz : Input VCF file with its INFO field modified with additional information required by the tool (GENES_IN, GENES_200KB, GENE_NEAREST)
 
 
 
