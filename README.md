@@ -93,10 +93,10 @@ Results wil be written in a new VCF file named <output>.vcf.gz
 Will modify the header to add INFO field annotation and add the list of genes within +/- 200KB in the INFO field.
 Results wil be written in a new VCF file named <output>.vcf.gz
 
-> python3 CERC_vcf_annotation.py -f <VCF_filename>.vcf.gz -g <GENCODE_filename>.gtf.gz -n -o <<output>>
+> python3 CERC_vcf_annotation.py -f <VCF_filename>.vcf.gz -g <GENCODE_filename>.gtf.gz -n -o <output>
 
 Will modify the header to add INFO field annotation and add the nearest genes in the INFO field.
-Results wil be written in a new VCF file named <<output>>.vcf.gz
+Results wil be written in a new VCF file named <output>.vcf.gz
 
 > python3 CERC_vcf_annotation.py -f <VCF_filename>.vcf.gz -g <GENCODE_filename>.gtf.gz -i -a -n -o <output>
 
