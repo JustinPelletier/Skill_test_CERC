@@ -88,31 +88,11 @@ Results wil be written in a new VCF file named "output".vcf.gz
 Will modify the header to add INFO field annotation and add the list of overlapping genes in the INFO field.
 Results wil be written in a new VCF file named "output".vcf.gz
 
-> python3 CERC_vcf_annotation.py -f <VCF_filename>.vcf.gz -g <GENCODE_filename>.gtf.gz -a -o "output"
-
-Will modify the header to add INFO field annotation and add the list of genes within +/- 200KB in the INFO field.
-Results wil be written in a new VCF file named "output".vcf.gz
-
-> python3 CERC_vcf_annotation.py -f <VCF_filename>.vcf.gz -g <GENCODE_filename>.gtf.gz -n -o "output"
-
-Will modify the header to add INFO field annotation and add the nearest genes in the INFO field.
-Results wil be written in a new VCF file named "output".vcf.gz
-
-> python3 CERC_vcf_annotation.py -f <VCF_filename>.vcf.gz -g <GENCODE_filename>.gtf.gz -i -a -n -o "output"
-
-Will modify the header to add INFO field annotation and add the list of overlapping genes, the list of genes within +/- 200KB and the nearest genes in the INFO field.
-Results wil be written in a new VCF file named "output".vcf.gz
-
-
-> python3 CERC_vcf_annotation.py -f <VCF_filename>.vcf.gz -g <GENCODE_filename>.gtf.gz -i -a -n 
-
-Will modify the header to add INFO field annotation and add the list of overlapping genes, the list of genes within +/- 200KB and the nearest genes in the INFO field.
-Results wil be written in the input VCF file <VCF_filename>.vcf.gz
 
 
 AUTHOR
 -----------
-PELLETIER Justin (https://mhi-omics.org/people/justin-pelletier/)
+PELLETIER Justin (https://www.genomic-medicine-cerc.online/current-team)
 
-email: justin.pelletier@umontreal.ca
+email: justin.pelletier2@mcgill.ca
 
